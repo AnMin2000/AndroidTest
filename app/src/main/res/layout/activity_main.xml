@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--
+    match_parent : 줄 맞춤
+    vertical 뜻 : 아래로 내림
+     -->
+    <Button
+        android:id="@+id/btn_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이동"/>
+
+<!--    <EditText-->
+<!--        android:id="@+id/et_id"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="아이디를 입력하세요..."/>-->
+<!--    &lt;!&ndash; EditText : Text를 입력 및 수정까지 가능한 뷰&ndash;&gt;-->
+<!--    &lt;!&ndash;    가로길이 : 300dp&ndash;&gt;-->
+<!--    &lt;!&ndash;    세로길이 : 텍스트 길이만큼 출력을 해줘라&ndash;&gt;-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_test"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="버튼" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button" />-->
+
+
+<!--    <TextView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="홍드로이드 잘생겼어요."-->
+<!--    android:textSize="20sp"-->
+<!--    android:textColor="#215378"/>-->
+<!--&lt;!&ndash;    textSize 폰트 크기-->
+<!--        textColor 폰트 색상-->
+<!--        &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="#781D74"-->
+<!--        android:textSize="30sp"-->
+<!--        android:text="인정 어 인정."/>-->
+
+
+</LinearLayout>
